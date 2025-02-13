@@ -51,7 +51,7 @@ void deleteLinkedList(LinkedList* list);
  * @pre   - linked list before element added
  * @post  - linked list one element longer
  */
-void appendElementLinkedList(LinkedList* list, double element, double priority);
+void appendElementLinkedList(LinkedList* list, double element, int priority);
 
 /** lengthOfLinkedList()
  * @brief  - returns the size of the linked list
